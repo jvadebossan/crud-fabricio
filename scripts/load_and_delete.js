@@ -47,7 +47,7 @@ function editOng(id){
     let ongs = JSON.parse(localStorage.getItem('ongs'));
     let ong = ongs.find(ong => ong.name === id);
     localStorage.setItem('ong', JSON.stringify(ong));
-    window.location.href = `../pages/edit_ong.html?id=${id}`;
+    window.location.href = `../pages/add_ong.html?id=${id}`;
 }
 
 onLoad()
