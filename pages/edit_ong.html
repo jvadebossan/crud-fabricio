@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit ONG Page</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/add_ongs.css">
 </head>
 <body>
-    
+    <form target="_self" action="/pages/ongs.html">
+        <input type="text" required="true" name="name" id="name" placeholder="Nome da ONG">
+        <input type="text" required="true" name="desc" id="desc" placeholder="Descrição da ONG">
+        <input type="text" required="true" name="cnpj" id="cnpj" placeholder="CNPJ da ONG">
+        <input 
+            class="btn" 
+            type="submit" 
+            value="Adicionar" 
+            name="add" 
+            id="add"
+            onclick="addOng()"
+        >
+    </form>
+    <a href="../index.html" class="back">Voltar</a>
+    <script src="../scripts/load_and_delete.js"></script>
+    <script src="../scripts/add_and_edit.js"></script>
 </body>
 </html>
