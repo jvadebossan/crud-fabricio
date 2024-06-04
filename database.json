@@ -1,1 +1,19 @@
-{}
+{
+    "ongs":[
+        {
+            "name": "ONG Número 1",
+            "desc": "Descrição da ONG Número 1",
+            "cnpj": 1231231231231
+        },
+        {
+            "name": "ONG Número 2",
+            "desc": "Descrição da ONG Número 2",
+            "cnpj": 1231231231231
+        },
+        {
+            "name": "ONG Número 3",
+            "desc": "Descrição da ONG Número 3",
+            "cnpj": 1231231231231
+        }
+    ]
+}
